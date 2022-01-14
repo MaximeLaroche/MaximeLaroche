@@ -23,9 +23,9 @@ Here are some ideas to get you started:
 ### Connect with me:
 
 
-[<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" />][linkedin]
-[<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn-icons.flaticon.com/png/512/3178/premium/3178158.png?token=exp=1642174435~hmac=0cb81752d132700482b252a0cc9c471a" />][email]
-[<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png" />][gitlab]
+[<img align="left" alt="Maxime Laroche | LinkedIn" width="22px" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" />][linkedin]
+[<img align="left" alt="Maxime Laroche | email" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/512px-Gmail_icon_%282020%29.svg.png" />][email]
+[<img align="left" alt="Maxime Laroche | Gitlab" width="22px" src="https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png" />][gitlab]
 
 <br />
 
