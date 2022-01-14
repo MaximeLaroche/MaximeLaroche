@@ -25,6 +25,7 @@ Here are some ideas to get you started:
 
 [<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 [<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Aiga_mail.svg/114px-Aiga_mail.svg.png" />][email]
+[<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://about.gitlab.com/images/press/logo/png/gitlab-icon-rgb.png" />][gitlab]
 
 <br />
 
@@ -65,3 +66,4 @@ Here are some ideas to get you started:
 
 [email]: mailto:mlaroche2009@gmail.com
 [linkedin]: https://www.linkedin.com/in/laroche-maxime/
+[gitlab]: https://gitlab.com/MaximeLaroche
