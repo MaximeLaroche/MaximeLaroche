@@ -15,10 +15,10 @@ Here are some ideas to get you started:
 
 # Hi there, I'm Maxime 👋 
 
-- 🏫 Software engineering at  [Polytechnique Montréal](https://polymtl.ca/)
+- 🏫 Software engineering at [Polytechnique Montréal](https://polymtl.ca/)
 - 🌱 I’m currently learning everything 🤣
 - 🗣 Français, English
-- 📝 Get my up to date resume here [Français](https://github.com/MaximeLaroche/Recherche-Stage/blob/master/CV.pdf) [English](https://github.com/MaximeLaroche/Recherche-Stage/blob/BaseAnglais/CV.pdf)
+- 📝 Get my up to date resume here [English](https://github.com/MaximeLaroche/Recherche-Stage/blob/BaseAnglais/CV.pdf)
 
 ### Connect with me:
 
