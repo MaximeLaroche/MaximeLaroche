@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Maxime Laroche",
-    "description": "Ingénieur logiciel à Montréal. Maîtrise en génie logiciel, concentration en intelligence artificielle et science des données."
+    "description": "Architecte logiciel à Montréal. Maîtrise en génie logiciel, concentration en intelligence artificielle et science des données."
   },
   "person": {
     "name": "Maxime Laroche",
@@ -36,7 +36,7 @@
         "logo": "ms",
         "inPdf": true,
         "points": [
-          "Réécriture du routage des confirms pour accélérer le traitement et éliminer le retard en fin de journée",
+          "Réécriture du routage des avis d'exécution pour accélérer le traitement et éliminer le retard en fin de journée",
           "Modernisation de l'environnement Summary confirms : maintenance facilitée, développement accéléré, élimination des failles de sécurité"
         ]
       },
@@ -52,13 +52,13 @@
         ]
       },
       {
-        "role": "Ingénieur en cybersécurité et apprentissage automatique",
+        "role": "Apprentissage automatique en cybersécurité",
         "company": "Morgan Stanley",
         "period": "mai – août 2023",
         "logo": "ms",
         "inPdf": true,
         "points": [
-          "Entraînement d'un grand modèle de langage (LLM) pour étiqueter des documents d'architecture avec les politiques de sécurité internes pertinentes",
+          "Entraînement d'un LLM pour étiqueter des documents d'architecture avec les politiques de sécurité internes pertinentes",
           "Rédaction de politiques de sécurité en OPA"
         ]
       },
