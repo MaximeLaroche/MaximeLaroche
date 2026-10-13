@@ -1,7 +1,19 @@
 {
   "meta": {
-    "title": "Maxime Laroche — Ingénieur logiciel",
+    "title": "Maxime Laroche",
     "description": "Ingénieur logiciel à Montréal. Maîtrise en génie logiciel, concentration en intelligence artificielle et science des données."
+  },
+  "person": {
+    "name": "Maxime Laroche",
+    "role": "Architecte logiciel",
+    "location": "Montréal, Québec",
+    "email": "mlaroche2009@gmail.com",
+    "phoneDisplay": "(514) 348-0345",
+    "phoneHref": "+15143480345",
+    "linkedinUrl": "https://www.linkedin.com/in/laroche-maxime/",
+    "linkedinLabel": "in/laroche-maxime",
+    "websiteUrl": "https://maximelaroche.ca",
+    "websiteLabel": "maximelaroche.ca"
   },
   "nav": {
     "experience": "Expérience",
@@ -10,28 +22,22 @@
     "contact": "Contact"
   },
   "hero": {
-    "role": "Ingénieur logiciel",
-    "location": "Montréal, Québec",
-    "intro": "Maîtrise en génie logiciel, concentration en IA et science des données. Je modernise présentement les confirms chez Morgan Stanley.",
+    "intro": "Maîtrise en génie logiciel, concentration en IA et science des données. Ouvert aux nouvelles opportunités.",
     "ctaPrimary": "Télécharger le CV",
     "ctaSecondary": "Me contacter"
-  },
-  "socials": {
-    "linkedin": "LinkedIn",
-    "email": "mlaroche2009@gmail.com",
-    "phone": "(514) 348-0345"
   },
   "experience": {
     "title": "Expérience",
     "items": [
       {
-        "role": "Génération de confirms",
+        "role": "Associé – Avis d'exécution",
         "company": "Morgan Stanley",
         "period": "juil. 2024 – août 2026",
         "logo": "ms",
+        "inPdf": true,
         "points": [
           "Réécriture du routage des confirms pour accélérer le traitement et éliminer le retard en fin de journée",
-          "Modernisation du projet Summary confirms : maintenance facilitée, développement accéléré, violations de sécurité éliminées"
+          "Modernisation de l'environnement Summary confirms : maintenance facilitée, développement accéléré, élimination des failles de sécurité"
         ]
       },
       {
@@ -39,6 +45,7 @@
         "company": "Banque Nationale du Canada",
         "period": "sept. 2023 – juil. 2024",
         "logo": "nbc",
+        "inPdf": true,
         "points": [
           "Aide à l'équipe des opérations pour traiter les demandes",
           "Automatisation du traitement des demandes fréquentes"
@@ -49,6 +56,7 @@
         "company": "Morgan Stanley",
         "period": "mai – août 2023",
         "logo": "ms",
+        "inPdf": true,
         "points": [
           "Entraînement d'un grand modèle de langage (LLM) pour étiqueter des documents d'architecture avec les politiques de sécurité internes pertinentes",
           "Rédaction de politiques de sécurité en OPA"
@@ -59,6 +67,7 @@
         "company": "Morgan Stanley",
         "period": "mai – août 2022",
         "logo": "ms",
+        "inPdf": false,
         "points": [
           "Conception et implémentation d'un site web et d'un serveur back-end avec React et Spring Boot",
           "Déploiements de bases de données avec Liquibase",
@@ -70,6 +79,7 @@
         "company": "Bombardier",
         "period": "janv. – août 2020",
         "logo": "bombardier",
+        "inPdf": false,
         "points": [
           "Conception d'un logiciel de collecte et d'analyse de données visant à optimiser les processus de l'entreprise",
           "Apprentissage d'un nouveau langage (VBA) sur le terrain",
@@ -81,18 +91,21 @@
   },
   "education": {
     "title": "Formation",
+    "gpaLabel": "Moyenne cumulative",
     "items": [
       {
         "degree": "Maîtrise en génie logiciel",
         "school": "Polytechnique Montréal",
         "period": "2023 – 2024",
-        "detail": "Moyenne cumulative 3,36 · Concentration en intelligence artificielle et science des données"
+        "gpa": "3,36",
+        "note": "Concentration en intelligence artificielle et science des données"
       },
       {
         "degree": "Baccalauréat en génie logiciel",
         "school": "Polytechnique Montréal",
         "period": "2020 – 2023",
-        "detail": "Moyenne cumulative 3,40 · Bourse d'excellence reçue à l'admission"
+        "gpa": "3,40",
+        "note": "Bourse d'excellence reçue à l'admission"
       }
     ]
   },
@@ -120,16 +133,9 @@
       }
     ]
   },
-  "about": {
-    "title": "Bon à savoir",
-    "strengthsLabel": "Principale force",
-    "strengths": "N'hésite pas à signaler lorsqu'un processus doit être amélioré",
-    "languagesLabel": "Langues",
-    "languages": "Français et anglais"
-  },
   "footer": {
     "title": "Me contacter",
-    "text": "Ouvert à de nouvelles opportunités en génie logiciel et en IA.",
+    "text": "Ouvert à de nouvelles opportunités",
     "rights": "© 2026 Maxime Laroche"
   }
 }

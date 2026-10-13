@@ -23,7 +23,7 @@ export function Education() {
                     {item.school}
                   </p>
                   <p className="mt-1.5 text-sm leading-relaxed text-muted-foreground">
-                    {item.detail}
+                    {`${t.education.gpaLabel}: ${item.gpa} · ${item.note}`}
                   </p>
                 </div>
                 <span className="shrink-0 font-mono-alt text-xs text-muted-foreground sm:self-start sm:pt-1">

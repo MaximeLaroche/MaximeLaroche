@@ -7,31 +7,26 @@ export function Footer() {
 
   const contacts = [
     {
-      href: 'https://www.linkedin.com/in/laroche-maxime/',
-      label: t.socials.linkedin,
-      value: 'in/laroche-maxime',
+      href: t.person.linkedinUrl,
+      label: 'LinkedIn',
+      value: t.person.linkedinLabel,
       Icon: Linkedin,
       external: true,
     },
     {
-      href: 'mailto:mlaroche2009@gmail.com',
+      href: `mailto:${t.person.email}`,
       label: 'Email',
-      value: t.socials.email,
+      value: t.person.email,
       Icon: Mail,
       external: false,
     },
     {
-      href: 'tel:+15143480345',
+      href: `tel:${t.person.phoneHref}`,
       label: lang === 'fr' ? 'Téléphone' : 'Phone',
-      value: t.socials.phone,
+      value: t.person.phoneDisplay,
       Icon: Phone,
       external: false,
     },
-  ]
-
-  const facts = [
-    { label: t.about.strengthsLabel, value: t.about.strengths },
-    { label: t.about.languagesLabel, value: t.about.languages },
   ]
 
   return (
@@ -43,20 +38,7 @@ export function Footer() {
         </Reveal>
 
         <Reveal delay={0.08}>
-          <dl className="mt-8 grid grid-cols-1 gap-x-8 gap-y-4 rounded-xl border border-border bg-card p-6 shadow-xs sm:grid-cols-2">
-            {facts.map((fact) => (
-              <div key={fact.label}>
-                <dt className="font-mono-alt text-xs uppercase tracking-[0.14em] text-muted-foreground">
-                  {fact.label}
-                </dt>
-                <dd className="mt-1.5 text-sm font-medium leading-relaxed">{fact.value}</dd>
-              </div>
-            ))}
-          </dl>
-        </Reveal>
-
-        <Reveal delay={0.14}>
-          <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-3">
+          <div className="mt-8 grid grid-cols-1 gap-3 sm:grid-cols-3">
             {contacts.map(({ href, label, value, Icon, external }) => (
               <a
                 key={href}

@@ -1,7 +1,19 @@
 {
   "meta": {
-    "title": "Maxime Laroche — Software Engineer",
-    "description": "Software engineer in Montréal. Master's in software engineering focused on AI and data science."
+    "title": "Maxime Laroche",
+    "description": "M.Eng in Montréal, Canada. Master's in software engineering focused on AI and data science."
+  },
+  "person": {
+    "name": "Maxime Laroche",
+    "role": "Software Architect",
+    "location": "Montréal, Québec",
+    "email": "mlaroche2009@gmail.com",
+    "phoneDisplay": "(514) 348-0345",
+    "phoneHref": "+15143480345",
+    "linkedinUrl": "https://www.linkedin.com/in/laroche-maxime/",
+    "linkedinLabel": "in/laroche-maxime",
+    "websiteUrl": "https://maximelaroche.ca",
+    "websiteLabel": "maximelaroche.ca"
   },
   "nav": {
     "experience": "Experience",
@@ -10,28 +22,22 @@
     "contact": "Contact"
   },
   "hero": {
-    "role": "Software Engineer",
-    "location": "Montréal, Québec",
-    "intro": "Master's in software engineering, focused on AI and data science. Currently modernizing trade confirms at Morgan Stanley.",
-    "ctaPrimary": "Download CV",
+    "intro": "Master's in software engineering, focused on AI and data science. Currently open to new opportunities.",
+    "ctaPrimary": "Download Resume",
     "ctaSecondary": "Get in touch"
-  },
-  "socials": {
-    "linkedin": "LinkedIn",
-    "email": "mlaroche2009@gmail.com",
-    "phone": "(514) 348-0345"
   },
   "experience": {
     "title": "Experience",
     "items": [
       {
-        "role": "Confirms Generation",
+        "role": "Associate – Confirms",
         "company": "Morgan Stanley",
         "period": "Jul 2024 – Aug 2026",
         "logo": "ms",
+        "inPdf": true,
         "points": [
           "Re-wrote the confirms routing for faster processing and eliminated the end-of-day backlog",
-          "Modernized the Summary confirms project: easier maintenance, faster development, no more security violations"
+          "Modernized the Summary confirms environment: easier maintenance, faster development, elimination of security vulnerabilities"
         ]
       },
       {
@@ -39,6 +45,7 @@
         "company": "National Bank of Canada",
         "period": "Sep 2023 – Jul 2024",
         "logo": "nbc",
+        "inPdf": true,
         "points": [
           "Helped the operations team handle incoming requests",
           "Automated the treatment of frequent requests"
@@ -49,6 +56,7 @@
         "company": "Morgan Stanley",
         "period": "May – Aug 2023",
         "logo": "ms",
+        "inPdf": true,
         "points": [
           "Trained a large language model (LLM) to tag architecture documents with the relevant internal security policies",
           "Wrote security policies in OPA"
@@ -59,6 +67,7 @@
         "company": "Morgan Stanley",
         "period": "May – Aug 2022",
         "logo": "ms",
+        "inPdf": false,
         "points": [
           "Designed and implemented a website and back-end server using React and Spring Boot",
           "Database deployments based on Liquibase",
@@ -70,6 +79,7 @@
         "company": "Bombardier",
         "period": "Jan – Aug 2020",
         "logo": "bombardier",
+        "inPdf": false,
         "points": [
           "Designed data collection and analysis software to optimize workflows within the company",
           "Learned a new language (VBA) on the spot",
@@ -81,18 +91,21 @@
   },
   "education": {
     "title": "Education",
+    "gpaLabel": "GPA",
     "items": [
       {
-        "degree": "Master's of Software Engineering",
+        "degree": "Master of Software Engineering",
         "school": "Polytechnique Montréal",
         "period": "2023 – 2024",
-        "detail": "GPA 3.36 · Focus on artificial intelligence and data science"
+        "gpa": "3.36",
+        "note": "Focus on artificial intelligence and data science"
       },
       {
         "degree": "Bachelor of Software Engineering",
         "school": "Polytechnique Montréal",
         "period": "2020 – 2023",
-        "detail": "GPA 3.40 · Excellence scholarship received at admission"
+        "gpa": "3.40",
+        "note": "Excellence scholarship received at admission"
       }
     ]
   },
@@ -108,7 +121,11 @@
           "Developed an aggregator to get the overall opinion of American Twitter users",
           "Used linear regression to determine the most important keywords"
         ],
-        "tags": ["Transformers", "NLP", "Linear Regression"]
+        "tags": [
+          "Transformers",
+          "NLP",
+          "Linear Regression"
+        ]
       },
       {
         "name": "Automatic Translator",
@@ -116,20 +133,16 @@
         "points": [
           "Implemented a transformer to perform automatic English-to-SPARQL translation"
         ],
-        "tags": ["Transformers", "SPARQL"]
+        "tags": [
+          "Transformers",
+          "SPARQL"
+        ]
       }
     ]
   },
-  "about": {
-    "title": "Good to know",
-    "strengthsLabel": "Main strength",
-    "strengths": "Not shy to mention when a process needs improvement",
-    "languagesLabel": "Languages",
-    "languages": "French and English"
-  },
   "footer": {
     "title": "Get in touch",
-    "text": "Open to new opportunities in software engineering and AI.",
+    "text": "Open to new opportunities",
     "rights": "© 2026 Maxime Laroche"
   }
 }

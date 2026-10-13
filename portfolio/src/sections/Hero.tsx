@@ -29,7 +29,7 @@ export function Hero() {
             className="flex items-center gap-2 font-mono-alt text-xs uppercase tracking-[0.18em] text-emerald-700 dark:text-emerald-400"
           >
             <MapPin className="h-3.5 w-3.5" strokeWidth={1.75} />
-            {t.hero.location}
+            {t.person.location}
           </motion.p>
 
           <motion.h1
@@ -40,7 +40,7 @@ export function Hero() {
           </motion.h1>
 
           <motion.p {...fadeUp(0.16)} className="mt-3 text-xl font-medium text-muted-foreground md:text-2xl">
-            {t.hero.role}
+            {t.person.role}
           </motion.p>
 
           <motion.p {...fadeUp(0.24)} className="mt-5 max-w-[52ch] leading-relaxed text-muted-foreground">
@@ -66,27 +66,27 @@ export function Hero() {
 
             <div className="ml-1 flex items-center gap-1.5">
               <a
-                href="https://www.linkedin.com/in/laroche-maxime/"
+                href={t.person.linkedinUrl}
                 target="_blank"
                 rel="noreferrer"
-                aria-label={t.socials.linkedin}
-                title={t.socials.linkedin}
+                aria-label="LinkedIn"
+                title="LinkedIn"
                 className="flex h-10 w-10 items-center justify-center rounded-full text-muted-foreground transition-all hover:bg-secondary hover:text-foreground active:scale-[0.97]"
               >
                 <Linkedin className="h-[18px] w-[18px]" strokeWidth={1.75} />
               </a>
               <a
-                href="mailto:mlaroche2009@gmail.com"
-                aria-label={t.socials.email}
-                title={t.socials.email}
+                href={`mailto:${t.person.email}`}
+                aria-label={t.person.email}
+                title={t.person.email}
                 className="flex h-10 w-10 items-center justify-center rounded-full text-muted-foreground transition-all hover:bg-secondary hover:text-foreground active:scale-[0.97]"
               >
                 <Mail className="h-[18px] w-[18px]" strokeWidth={1.75} />
               </a>
               <a
-                href="tel:+15143480345"
-                aria-label={t.socials.phone}
-                title={t.socials.phone}
+                href={`tel:${t.person.phoneHref}`}
+                aria-label={t.person.phoneDisplay}
+                title={t.person.phoneDisplay}
                 className="flex h-10 w-10 items-center justify-center rounded-full text-muted-foreground transition-all hover:bg-secondary hover:text-foreground active:scale-[0.97]"
               >
                 <Phone className="h-[18px] w-[18px]" strokeWidth={1.75} />
