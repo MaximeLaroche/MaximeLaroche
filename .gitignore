@@ -1,0 +1,10 @@
+*.aux
+*.log
+*.gz
+*.fls
+*.fdb_latexmk
+
+*__latexindent_temp.tex
+*.out
+
+node_modules/

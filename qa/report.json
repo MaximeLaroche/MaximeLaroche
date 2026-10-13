@@ -1,0 +1,143 @@
+{
+  "file": "H:\\laroc\\Documents\\cv\\Recherche-Stage\\CV_Sales.docx",
+  "engine": "doc-k https://www.kimi.com/pages/dock/embed (final view)",
+  "browser": "C:\\Users\\laroc\\AppData\\Local\\ms-playwright\\chromium_headless_shell-1228\\chrome-headless-shell-win64\\chrome-headless-shell.exe",
+  "pages": 1,
+  "rendered": 1,
+  "ms": 3629,
+  "nearBlankPages": [],
+  "fidelity": {
+    "verdict": "lossy",
+    "byCategory": {
+      "content-loss": 2,
+      "degraded": 59,
+      "interactivity-loss": 0,
+      "metadata-loss": 118,
+      "unknown": 0
+    },
+    "suppressed": [
+      {
+        "part": "word/endnotes.xml",
+        "count": 1,
+        "reason": "only separator notes (no real notes), nothing is lost"
+      }
+    ],
+    "findings": [
+      {
+        "category": "degraded",
+        "severity": "medium",
+        "part": "word/document.xml",
+        "element": "w:pgMar",
+        "count": 1,
+        "note": "gutter 装订线不建模（非零时版心宽/位置偏移）"
+      },
+      {
+        "category": "degraded",
+        "severity": "low",
+        "part": "word/document.xml",
+        "element": "w:bCs",
+        "count": 26,
+        "note": "复杂脚本粗体（w:bCs）不建模"
+      },
+      {
+        "category": "degraded",
+        "severity": "low",
+        "part": "word/numbering.xml",
+        "element": "w:lvlJc",
+        "count": 10,
+        "note": "编号标签对齐（w:lvlJc）不建模"
+      },
+      {
+        "category": "degraded",
+        "severity": "low",
+        "part": "word/document.xml",
+        "element": "w:iCs",
+        "count": 9,
+        "note": "复杂脚本斜体（w:iCs）不建模"
+      },
+      {
+        "category": "degraded",
+        "severity": "low",
+        "part": "word/document.xml",
+        "element": "w:caps",
+        "count": 5,
+        "note": "全大写（w:caps）不建模"
+      },
+      {
+        "category": "degraded",
+        "severity": "low",
+        "part": "word/numbering.xml",
+        "element": "w:abstractNum",
+        "count": 2,
+        "note": "编号在分页/节后重启（w15:restartNumberingAfterBreak）不建模"
+      },
+      {
+        "category": "content-loss",
+        "severity": "low",
+        "part": "word/numbering.xml",
+        "element": "w:lvlOverride",
+        "count": 2,
+        "note": "编号级别覆盖（w:lvlOverride/w:startOverride）不建模（语料命中均行为中性，首例非中性出现再建模）"
+      },
+      {
+        "category": "degraded",
+        "severity": "low",
+        "part": "word/styles.xml",
+        "element": "w:rFonts",
+        "count": 1,
+        "note": "rFonts/@cs（复杂脚本字体）不建模（docDefaults/numbering lvl 等上下文；run/样式级已建模）"
+      },
+      {
+        "category": "degraded",
+        "severity": "low",
+        "part": "word/styles.xml",
+        "element": "w:szCs",
+        "count": 1,
+        "note": "复杂脚本字号不建模（docDefaults/numbering lvl 等上下文；run/样式级已建模）"
+      },
+      {
+        "category": "degraded",
+        "severity": "low",
+        "part": "word/styles.xml",
+        "element": "w:iCs",
+        "count": 1,
+        "note": "复杂脚本斜体（w:iCs）不建模"
+      },
+      {
+        "category": "degraded",
+        "severity": "low",
+        "part": "word/styles.xml",
+        "element": "w:bCs",
+        "count": 1,
+        "note": "复杂脚本粗体（w:bCs）不建模"
+      },
+      {
+        "category": "degraded",
+        "severity": "low",
+        "part": "word/numbering.xml",
+        "element": "w:bCs",
+        "count": 1,
+        "note": "复杂脚本粗体（w:bCs）不建模"
+      },
+      {
+        "category": "degraded",
+        "severity": "low",
+        "part": "word/numbering.xml",
+        "element": "w:szCs",
+        "count": 1,
+        "note": "复杂脚本字号不建模（docDefaults/numbering lvl 等上下文；run/样式级已建模）"
+      }
+    ]
+  },
+  "contactSheet": "contact-sheet.png",
+  "pageFiles": [
+    {
+      "page": 1,
+      "file": "page-01.png",
+      "textChars": 2121,
+      "media": 0,
+      "nearBlank": false,
+      "clipped": false
+    }
+  ]
+}

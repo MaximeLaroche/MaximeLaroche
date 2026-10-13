@@ -7,6 +7,11 @@ import { inspectAttr } from 'kimi-plugin-inspect-react'
 export default defineConfig({
   base: './',
   plugins: [inspectAttr(), react()],
+  build: {
+    // GitHub Pages serves the docs/ folder — output the production build there.
+    outDir: '../docs',
+    emptyOutDir: true,
+  },
   server: {
     port: 3000,
   },

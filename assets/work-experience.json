@@ -1,0 +1,52 @@
+{
+  "work": [
+    {
+      "date": "September 2023 - July 2024",
+      "title": "Datahub Operations | National Bank of Canada",
+      "description": "Help operations team handle requests\nAutomate the treatment of frequent requests",
+      "stack": [
+        "Python",
+        "SQL"
+      ]
+    },
+    {
+      "date": "May 2023 - August 2023",
+      "title": "Machine learning engineer | Morgan Stanley",
+      "description": "Train a large language model (LLM) to tag architecture documents written in English with relevant internal security policies\nWrite security policies in OPA",
+      "stack": [
+        "Python",
+        "OPA",
+        "Pytorch",
+        "huggingface 🤗"
+      ]
+    },
+    {
+      "date": "May 2022 - August 2022",
+      "title": "Full Stack developer | Morgan Stanley",
+      "description": "Refactoring a website with hard coded data to rely on an SQL database to be easily able to add/remove data\nDesign of a separate web UI to allow users to edit the data\nMigration of a front end from angular to react",
+      "stack": [
+        "Angular",
+        "React",
+        "Spring boot",
+        "Spring data",
+        "Liquibase"
+      ]
+    },
+    {
+      "date": "January 2020 - August 2020",
+      "title": "Service engineering | Bombardier",
+      "description": "Design of data collection and analyzing software made to optimize workflows within the company\nIterative Design",
+      "stack": [
+        "VBA",
+        "SalesForce",
+        "SAP"
+      ]
+    },
+    {
+      "date": "January 2018 - June 2018",
+      "title": "Assistant researcher in nodal geometry | Ahuntsic College",
+      "description": "Test design and preparation to either prove or disprove theories elaborated by the researcher\nReport results to the researcher\nPart design using a 3D printer when special part where necessary for testing",
+      "stack": []
+    }
+  ]
+}
