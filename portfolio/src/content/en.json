@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "Maxime Laroche — Software Engineer",
+    "description": "Software engineer in Montréal. Master's in software engineering focused on AI and data science."
+  },
+  "nav": {
+    "experience": "Experience",
+    "education": "Education",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "role": "Software Engineer",
+    "location": "Montréal, Québec",
+    "intro": "Master's in software engineering, focused on AI and data science. Currently modernizing trade confirms at Morgan Stanley.",
+    "ctaPrimary": "Download CV",
+    "ctaSecondary": "Get in touch"
+  },
+  "socials": {
+    "linkedin": "LinkedIn",
+    "email": "mlaroche2009@gmail.com",
+    "phone": "(514) 348-0345"
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "role": "Confirms Generation",
+        "company": "Morgan Stanley",
+        "period": "Jul 2024 – Aug 2026",
+        "logo": "ms",
+        "points": [
+          "Re-wrote the confirms routing for faster processing and eliminated the end-of-day backlog",
+          "Modernized the Summary confirms project: easier maintenance, faster development, no more security violations"
+        ]
+      },
+      {
+        "role": "Datahub Operations",
+        "company": "National Bank of Canada",
+        "period": "Sep 2023 – Jul 2024",
+        "logo": "nbc",
+        "points": [
+          "Helped the operations team handle incoming requests",
+          "Automated the treatment of frequent requests"
+        ]
+      },
+      {
+        "role": "Cybersecurity & Machine Learning Engineer",
+        "company": "Morgan Stanley",
+        "period": "May – Aug 2023",
+        "logo": "ms",
+        "points": [
+          "Trained a large language model (LLM) to tag architecture documents with the relevant internal security policies",
+          "Wrote security policies in OPA"
+        ]
+      },
+      {
+        "role": "Full Stack Developer",
+        "company": "Morgan Stanley",
+        "period": "May – Aug 2022",
+        "logo": "ms",
+        "points": [
+          "Designed and implemented a website and back-end server using React and Spring Boot",
+          "Database deployments based on Liquibase",
+          "Wrote end-to-end and unit tests"
+        ]
+      },
+      {
+        "role": "Service Engineering",
+        "company": "Bombardier",
+        "period": "Jan – Aug 2020",
+        "logo": "bombardier",
+        "points": [
+          "Designed data collection and analysis software to optimize workflows within the company",
+          "Learned a new language (VBA) on the spot",
+          "Iterative design process",
+          "Ground support equipment design"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "degree": "Master's of Software Engineering",
+        "school": "Polytechnique Montréal",
+        "period": "2023 – 2024",
+        "detail": "GPA 3.36 · Focus on artificial intelligence and data science"
+      },
+      {
+        "degree": "Bachelor of Software Engineering",
+        "school": "Polytechnique Montréal",
+        "period": "2020 – 2023",
+        "detail": "GPA 3.40 · Excellence scholarship received at admission"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "name": "Sentiment Analysis on American Politics",
+        "period": "2023",
+        "points": [
+          "Collaborated with a team of five to implement a model classifying opinions by political party",
+          "Used transformers to classify text",
+          "Developed an aggregator to get the overall opinion of American Twitter users",
+          "Used linear regression to determine the most important keywords"
+        ],
+        "tags": ["Transformers", "NLP", "Linear Regression"]
+      },
+      {
+        "name": "Automatic Translator",
+        "period": "2022",
+        "points": [
+          "Implemented a transformer to perform automatic English-to-SPARQL translation"
+        ],
+        "tags": ["Transformers", "SPARQL"]
+      }
+    ]
+  },
+  "about": {
+    "title": "Good to know",
+    "strengthsLabel": "Main strength",
+    "strengths": "Not shy to mention when a process needs improvement",
+    "languagesLabel": "Languages",
+    "languages": "French and English"
+  },
+  "footer": {
+    "title": "Get in touch",
+    "text": "Open to new opportunities in software engineering and AI.",
+    "rights": "© 2026 Maxime Laroche"
+  }
+}

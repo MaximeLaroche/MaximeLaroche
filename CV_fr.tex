@@ -1,0 +1,99 @@
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Maxime Laroche} % Your name
+\address{Montréal, Québec} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(514) 348 - 0345 \\ 	mlaroche2009@gmail.com \\ \href{https://maximelaroche.github.io/portfolio}{maximelaroche.github.io/portfolio}} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+% EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Formation}
+
+	{\bf Maîtrise en génie logiciel} \hfill {\em 2023 - 2024}
+	\\ Polytechnique Montréal
+	\\Moyenne cumulative : 3,36 \hspace{0.5cm} Concentration en intelligence artificielle et science des données
+
+		{\bf Baccalauréat en génie logiciel} \hfill {\em 2020 - 2023}
+	\\ Polytechnique Montréal
+	\\Moyenne cumulative : 3,40 \hspace{0.5cm} Bourse d'excellence reçue à l'admission.
+
+
+\end{rSection}
+
+
+
+
+%----------------------------------------------------------------------------------------
+% WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Expérience}
+	\begin{rSubsection}{Génération de confirms}{juillet 2024 - août 2026}{Morgan Stanley}{}{}
+		\item Réécriture du routage des confirms pour accélérer le traitement et éliminer le retard en fin de journée
+		\item Modernisation du projet Summary confirms pour faciliter la maintenance, accélérer le développement et éliminer les violations de sécurité
+	\end{rSubsection}
+	\begin{rSubsection}{Opérations Datahub}{septembre 2023 - juillet 2024}{Banque Nationale du Canada}{}{}
+		\item Aide à l'équipe des opérations pour traiter les demandes
+		\item Automatisation du traitement des demandes fréquentes
+	\end{rSubsection}
+
+	\begin{rSubsection}{Ingénieur en cybersécurité et apprentissage automatique}{mai - août 2023}{Morgan Stanley}{}{}
+		\item Entraînement d'un grand modèle de langage (LLM) pour étiqueter des documents d'architecture rédigés en anglais avec les politiques de sécurité internes pertinentes
+		\item Rédaction de politiques de sécurité en OPA
+	\end{rSubsection}
+	%\begin{rSubsection}{Développeur full stack}{mai - août 2022}{Morgan Stanley}{}{}
+	%	\item Conception et implémentation d'un site web et d'un serveur back-end avec React et Spring Boot
+	%	\item Déploiements de bases de données avec Liquibase
+	%	\item Rédaction de tests de bout en bout et de tests unitaires
+	%\end{rSubsection}
+
+	%\begin{rSubsection}{Ingénierie de service}{janvier - août 2020}{Bombardier}{}{}
+	%	\item Conception d'un logiciel de collecte et d'analyse de données visant à optimiser les processus de l'entreprise.
+	%	\item Apprentissage d'un nouveau langage (VBA) sur le terrain
+	%	\item Projet réalisé selon une conception itérative
+	%	\item Conception d'équipement de soutien au sol.
+	%\end{rSubsection}
+
+\end{rSection}
+
+
+%--------------------------------------------------------------------------------
+%    Projects And Seminars
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}{Projets}
+	\begin{rSubsection}{Analyse de sentiment sur la politique américaine}{2023}{}{}
+		\item Collaboration au sein d'une équipe de cinq personnes pour implémenter un modèle capable de classifier les opinions par parti politique
+		\item Utilisation de transformers pour classifier du texte
+		\item Développement d'un agrégateur pour obtenir l'opinion globale des utilisateurs américains de Twitter
+		\item Utilisation de la régression linéaire pour déterminer les mots-clés les plus importants
+		%\item \url{http://maximelaroche.gitlab.io/log2990-201/#/home}
+	\end{rSubsection}
+	\begin{rSubsection}{Traducteur automatique}{2022}{}{}
+		\item Implémentation d'un transformer pour la traduction automatique de l'anglais vers SPARQL
+	\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Connaissances générales}
+
+	\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+		Principales forces \  & N'hésite pas à signaler lorsqu'un processus doit être amélioré \\
+		Langues                & Français et anglais
+	\end{tabular}
+
+\end{rSection}
+
+\end{document}

@@ -1,0 +1,99 @@
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Maxime Laroche} % Your name
+\address{Montréal, Québec} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{(514) 348 - 0345 \\ 	mlaroche2009@gmail.com \\ \href{https://maximelaroche.github.io/portfolio}{maximelaroche.github.io/portfolio}} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+% EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+	{\bf Masters of Software Engineering} \hfill {\em 2023 - 2024}
+	\\ Polytechnique Montréal
+	\\GPA: 3,36 \hspace{0.5cm} Focus on artificial intelligence and data science
+
+		{\bf Bachelor of Software Engineering} \hfill {\em 2020 - 2023}
+	\\ Polytechnique Montréal
+	\\GPA: 3,40 \hspace{0.5cm} Excellence scholarship received at admission.
+
+
+\end{rSection}
+
+
+
+
+%----------------------------------------------------------------------------------------
+% WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experience}
+	\begin{rSubsection}{Confirms generation}{July 2024 - August 2026}{Morgan Stanley}{}{}
+		\item Re-write confirms routing for faster speed and get rid of the backlog at EOD
+		\item Modernize the Summary confirms project for easier maintenance, faster development and getting rid of security violations
+	\end{rSubsection}
+	\begin{rSubsection}{Datahub Operations}{September 2023 - July 2024}{National Bank of Canada}{}{}
+		\item Help operations team handle requests
+		\item Automate the treatment of frequent requests
+	\end{rSubsection}
+
+	\begin{rSubsection}{Cybersecurity and Machine learning engineer}{May - August 2023}{Morgan Stanley}{}{}
+		\item Train a Large language model (LLM) to tag architecture documents written in English with relevant internal security policies
+		\item Write security policies in OPA
+	\end{rSubsection}
+	%\begin{rSubsection}{Full stack developer}{May - August 2022}{Morgan Stanley}{}{}
+	%	\item Design and implementation of a website + back end server using react and spring boot.
+	%	\item Database deployments based on liquibase
+	%	\item writing end to end and unit tests
+	%\end{rSubsection}
+	
+	%\begin{rSubsection}{Service engineering}{January - August 2020}{Bombardier}{}{}
+	%	\item Design of data collection and analyzing software made to optimize workflows within the company.
+	%	\item Learning a new language (VBA) on the spot
+	%	\item Project made with iterative design
+	%	\item Ground support equipment design.
+	%\end{rSubsection}
+
+\end{rSection}
+
+
+%--------------------------------------------------------------------------------
+%    Projects And Seminars
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}{Projects}
+	\begin{rSubsection}{Sentiment analysis on american politics}{2023}{}{}
+		\item Collaboration with a team of five to implement a model that can classify opinions by political party
+		\item Use of transformers to classify text
+		\item Develop an aggregator to be able to get the overall opinion of American twitter users
+		\item Use of linear regression to determine most important keywords
+	\end{rSubsection}
+	\begin{rSubsection}{Automatic translator}{2022}{}{}
+		\item Implementation of a transformer to perform automatic English to Sparql translation
+	\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{General knowledge}
+
+	\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+		Main strengths \  & Not shy to mention if a process need improvement \\
+		Languages                & French and English
+	\end{tabular}
+
+\end{rSection}
+
+\end{document}
+

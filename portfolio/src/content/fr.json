@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "Maxime Laroche — Ingénieur logiciel",
+    "description": "Ingénieur logiciel à Montréal. Maîtrise en génie logiciel, concentration en intelligence artificielle et science des données."
+  },
+  "nav": {
+    "experience": "Expérience",
+    "education": "Formation",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "role": "Ingénieur logiciel",
+    "location": "Montréal, Québec",
+    "intro": "Maîtrise en génie logiciel, concentration en IA et science des données. Je modernise présentement les confirms chez Morgan Stanley.",
+    "ctaPrimary": "Télécharger le CV",
+    "ctaSecondary": "Me contacter"
+  },
+  "socials": {
+    "linkedin": "LinkedIn",
+    "email": "mlaroche2009@gmail.com",
+    "phone": "(514) 348-0345"
+  },
+  "experience": {
+    "title": "Expérience",
+    "items": [
+      {
+        "role": "Génération de confirms",
+        "company": "Morgan Stanley",
+        "period": "juil. 2024 – août 2026",
+        "logo": "ms",
+        "points": [
+          "Réécriture du routage des confirms pour accélérer le traitement et éliminer le retard en fin de journée",
+          "Modernisation du projet Summary confirms : maintenance facilitée, développement accéléré, violations de sécurité éliminées"
+        ]
+      },
+      {
+        "role": "Opérations Datahub",
+        "company": "Banque Nationale du Canada",
+        "period": "sept. 2023 – juil. 2024",
+        "logo": "nbc",
+        "points": [
+          "Aide à l'équipe des opérations pour traiter les demandes",
+          "Automatisation du traitement des demandes fréquentes"
+        ]
+      },
+      {
+        "role": "Ingénieur en cybersécurité et apprentissage automatique",
+        "company": "Morgan Stanley",
+        "period": "mai – août 2023",
+        "logo": "ms",
+        "points": [
+          "Entraînement d'un grand modèle de langage (LLM) pour étiqueter des documents d'architecture avec les politiques de sécurité internes pertinentes",
+          "Rédaction de politiques de sécurité en OPA"
+        ]
+      },
+      {
+        "role": "Développeur full stack",
+        "company": "Morgan Stanley",
+        "period": "mai – août 2022",
+        "logo": "ms",
+        "points": [
+          "Conception et implémentation d'un site web et d'un serveur back-end avec React et Spring Boot",
+          "Déploiements de bases de données avec Liquibase",
+          "Rédaction de tests de bout en bout et de tests unitaires"
+        ]
+      },
+      {
+        "role": "Ingénierie de service",
+        "company": "Bombardier",
+        "period": "janv. – août 2020",
+        "logo": "bombardier",
+        "points": [
+          "Conception d'un logiciel de collecte et d'analyse de données visant à optimiser les processus de l'entreprise",
+          "Apprentissage d'un nouveau langage (VBA) sur le terrain",
+          "Projet réalisé selon une conception itérative",
+          "Conception d'équipement de soutien au sol"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Formation",
+    "items": [
+      {
+        "degree": "Maîtrise en génie logiciel",
+        "school": "Polytechnique Montréal",
+        "period": "2023 – 2024",
+        "detail": "Moyenne cumulative 3,36 · Concentration en intelligence artificielle et science des données"
+      },
+      {
+        "degree": "Baccalauréat en génie logiciel",
+        "school": "Polytechnique Montréal",
+        "period": "2020 – 2023",
+        "detail": "Moyenne cumulative 3,40 · Bourse d'excellence reçue à l'admission"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projets",
+    "items": [
+      {
+        "name": "Analyse de sentiment sur la politique américaine",
+        "period": "2023",
+        "points": [
+          "Collaboration au sein d'une équipe de cinq personnes pour implémenter un modèle classifiant les opinions par parti politique",
+          "Utilisation de transformers pour classifier du texte",
+          "Développement d'un agrégateur pour obtenir l'opinion globale des utilisateurs américains de Twitter",
+          "Utilisation de la régression linéaire pour déterminer les mots-clés les plus importants"
+        ],
+        "tags": ["Transformers", "NLP", "Régression linéaire"]
+      },
+      {
+        "name": "Traducteur automatique",
+        "period": "2022",
+        "points": [
+          "Implémentation d'un transformer pour la traduction automatique de l'anglais vers SPARQL"
+        ],
+        "tags": ["Transformers", "SPARQL"]
+      }
+    ]
+  },
+  "about": {
+    "title": "Bon à savoir",
+    "strengthsLabel": "Principale force",
+    "strengths": "N'hésite pas à signaler lorsqu'un processus doit être amélioré",
+    "languagesLabel": "Langues",
+    "languages": "Français et anglais"
+  },
+  "footer": {
+    "title": "Me contacter",
+    "text": "Ouvert à de nouvelles opportunités en génie logiciel et en IA.",
+    "rights": "© 2026 Maxime Laroche"
+  }
+}
