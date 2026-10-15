@@ -36,7 +36,7 @@
         "logo": "ms",
         "inPdf": true,
         "points": [
-          "Réécriture du routage des avis d'exécution pour accélérer le traitement et éliminer le retard en fin de journée",
+          "Réécriture du routage des avis d'exécution sur spring boot et IBM MQ pour accélérer le traitement et éliminer le retard en fin de journée",
           "Modernisation de l'environnement Summary confirms : maintenance facilitée, développement accéléré, élimination des failles de sécurité"
         ]
       },

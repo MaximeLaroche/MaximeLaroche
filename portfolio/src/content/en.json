@@ -36,7 +36,7 @@
         "logo": "ms",
         "inPdf": true,
         "points": [
-          "Re-wrote the confirms routing for faster processing and eliminated the end-of-day backlog",
+          "Re-wrote the confirms routing for faster processing and eliminated the end-of-day backlog with a spring boot back end and IBM MQ queues",
           "Modernized the Summary confirms environment: easier maintenance, faster development, elimination of security vulnerabilities"
         ]
       },
@@ -58,7 +58,7 @@
         "logo": "ms",
         "inPdf": true,
         "points": [
-          "Trained a large language model (LLM) to tag architecture documents with the relevant internal security policies",
+          "Trained and fined tuned a large language model (LLM) using pyTorch to tag architecture documents with the relevant internal security policies",
           "Wrote security policies in OPA"
         ]
       },
